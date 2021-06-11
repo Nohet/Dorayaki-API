@@ -1,2 +1,2 @@
 # Dorayaki-API
-Dorayaki monetizing module api,
+Dorayaki monetizing module api.
