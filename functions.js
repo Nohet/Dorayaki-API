@@ -1,5 +1,5 @@
 function btoa(str) {
-    var buffer;
+    let buffer;
   
     if (str instanceof Buffer) {
       buffer = str;
@@ -10,8 +10,8 @@ function btoa(str) {
   }
   
 function linkvertise(userid, link) {
-    var base_url = `https://link-to.net/${userid}/${Math.random() * 1000}/dynamic`;
-    var href = base_url + "?r=" + btoa(encodeURI(link));
+    let base_url = `https://link-to.net/${userid}/${Math.random() * 1000}/dynamic`;
+    let href = base_url + "?r=" + btoa(encodeURI(link));
     return href;
   }
 
